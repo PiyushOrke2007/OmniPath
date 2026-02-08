@@ -1,0 +1,47 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+.build/
+
+# Production
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build
+dist/
+coverage/
+
+# Misc
+*.local
+*.cache
+
+# Tailwind / PostCSS
+.postcssrc.js
+
+# PWA/Service worker
+public/sw.js
+
+# Optional: lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
