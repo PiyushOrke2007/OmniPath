@@ -1,0 +1,53 @@
+{
+    "name": "omnipath",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env PORT=3000 next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "server": "node server/index.js",
+        "dev:server": "nodemon server/index.js"
+    },
+    "dependencies": {
+        "@types/leaflet": "^1.9.8",
+        "dexie": "^3.2.4",
+        "framer-motion": "^10.16.5",
+        "leaflet": "^1.9.4",
+        "lucide-react": "^0.294.0",
+        "next-pwa": "^5.6.0",
+        "qrcode": "^1.5.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hot-toast": "^2.4.1",
+        "react-leaflet": "^4.2.1",
+        "react-qr-code": "^2.0.12",
+        "socket.io-client": "^4.7.5",
+        "uuid": "^9.0.1",
+        "workbox-webpack-plugin": "^7.0.0",
+        "zustand": "^4.4.7"
+    },
+    "devDependencies": {
+        "@types/node": "^20.9.4",
+        "@types/react": "^18.2.38",
+        "@types/react-dom": "^18.2.17",
+        "@types/uuid": "^9.0.7",
+        "autoprefixer": "^10.4.16",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.3.1",
+        "eslint": "^8.54.0",
+        "express": "^4.18.2",
+        "helmet": "^7.1.0",
+        "mongodb": "^6.3.0",
+        "eslint-config-next": "^14.0.4",
+            "next": "^14.0.4",
+        "nodemon": "^3.0.2",
+        "postcss": "^8.4.31",
+        "socket.io": "^4.7.5",
+        "tailwindcss": "^3.3.5",
+        "typescript": "^5.2.2"
+    }
+}
